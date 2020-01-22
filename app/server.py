@@ -8,9 +8,9 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-model_file_url = 'https://www.dropbox.com/s/72a9hmcy57ijtcd/stage-1.pth?raw=1'
+model_file_url = 'https://www.dropbox.com/s/7ku499juf0nhp4k/gcp_new.pth?raw=1'
 model_file_name = 'model'
-classes = ['spaghetti', 'not']
+classes = ['normal', 'target']
 path = Path(__file__).parent
 
 app = Starlette()
